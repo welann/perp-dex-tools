@@ -22,6 +22,20 @@ EDGEX_WS_URL=wss://quote.edgex.exchange
 BACKPACK_PUBLIC_KEY=your_public_key_here
 BACKPACK_SECRET_KEY=your_secret_key_here
 
+# Lighter Configuration
+# Lighter is a ZK-based perpetual futures protocol
+
+# Lighter Account Credentials (REQUIRED for API access)
+# Use your Ethereum private key that has an account on Lighter protocol
+LIGHTER_PRIVATE_KEY=your_ethereum_private_key_here
+LIGHTER_ACCOUNT_INDEX=1
+LIGHTER_API_KEY_INDEX=0
+
+# Lighter API Endpoints
+LIGHTER_BASE_URL=https://testnet.zklighter.elliot.ai
+# For mainnet, use:
+# LIGHTER_BASE_URL=https://mainnet.zklighter.elliot.ai
+
 # Logging
 LOG_TO_CONSOLE=true
 LOG_TO_FILE=true
